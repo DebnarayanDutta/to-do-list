@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(28, 87, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-div{
+    height: 100%;
+    width: 450px;
+}
+#main-div h1{
+    font-size: 60px;
+    color: rgb(214, 184, 184);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#main-div input{
+    border-radius: 5px;
+    border:2px solid black;
+    height: 50px;
+    width: 280px;
+}
+
+#main-div input,textarea{
+    font-size: 15px;
+}
+
+#main-div button{
+    border-radius: 5px;
+    border:2px solid black;
+    height: 40px;
+    width: 80px;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#main-div button:hover{
+  background-color: blue;
+  color: aliceblue;
+  cursor: pointer;
+}
+#main-div ul{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+}
